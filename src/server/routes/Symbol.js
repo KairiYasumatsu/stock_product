@@ -22,7 +22,7 @@ router.get('/:symbol', (req, res) => {
             const returnKeys = [
                 'symbol',
                 'url',
-                'company_name',
+                'companyName',
                 'close',
                 'close_previousClose_diff',
                 'high',
@@ -54,7 +54,7 @@ router.get('/test/:symbol', (req, res)=>{
     res.json({
         "symbol": "APPL",
         "url": "https://storage.googleapis.com/iex/api/logos/AAPL.png",
-        "company_name": "Apple Inc.",
+        "companyName": "Apple Inc.",
         "close": 28.81,
         "diff": 3.23,
         "high": 29.12,
