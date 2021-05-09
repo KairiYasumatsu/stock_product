@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-fetch('/api/').then(response => {
+fetch('/api/symbol/test/AAPL').then(response => {
     console.log(response.json());
 })  
 
